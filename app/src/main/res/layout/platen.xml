@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/main_layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="110dp"
+            app:srcCompat="@drawable/platformr"
+            android:id="@+id/rplaat2"
+            android:layout_weight="1"
+            android:layout_row="21"
+            android:layout_column="0"
+            android:layout_alignBottom="@+id/rplaat3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="98dp" />
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="110dp"
+            app:srcCompat="@drawable/platformr"
+            android:id="@+id/rplaat3"
+            android:layout_weight="1"
+            android:layout_marginBottom="49dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="110dp"
+            app:srcCompat="@drawable/platformr"
+            android:id="@+id/rplaat1"
+            android:layout_weight="1"
+            android:layout_marginBottom="87dp"
+            android:layout_above="@+id/rplaat3"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="110dp"
+            app:srcCompat="@drawable/platforml"
+            android:id="@+id/lplaat3"
+            android:layout_alignTop="@+id/rplaat3"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="110dp"
+            app:srcCompat="@drawable/platforml"
+            android:id="@+id/lplaat2"
+            android:layout_alignTop="@+id/rplaat2"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="110dp"
+            app:srcCompat="@drawable/platforml"
+            android:id="@+id/lplaat1"
+            android:layout_alignTop="@+id/rplaat1"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

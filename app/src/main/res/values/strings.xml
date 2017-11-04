@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Baron1898</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2811980712617298/4420175769</string>
+    <string name="signin_other_error">Error</string>
+</resources>

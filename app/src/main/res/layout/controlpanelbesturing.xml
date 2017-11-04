@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/main_layout"
+    android:id="@+id/besturingattractie">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/switchright"
+                android:layout_marginStart="56dp"
+                android:id="@+id/buttondeuringang"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/deureningang"
+                android:id="@+id/textdeuren"
+                android:layout_marginBottom="39dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/groen"
+                android:layout_marginStart="40dp"
+                android:id="@+id/stoplichtdeuringang"
+                android:layout_above="@+id/buttondeuringang"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="94dp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/switchright"
+                android:layout_marginStart="60dp"
+                android:id="@+id/buttonbeugels"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/textdeuren" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/beugels"
+                android:id="@+id/textbeugels"
+                android:layout_alignTop="@+id/textdeuren"
+                android:layout_toEndOf="@+id/textdeuren" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/groen"
+                android:id="@+id/stoplichtbeugels"
+                android:layout_alignTop="@+id/stoplichtdeuringang"
+                android:layout_alignEnd="@+id/textbeugels"
+                android:layout_marginEnd="38dp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/vloer"
+                android:id="@+id/textvloer"
+                android:layout_alignTop="@+id/textbeugels"
+                android:layout_toEndOf="@+id/textbeugels" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/switchright"
+                android:id="@+id/buttonvloer"
+                android:layout_marginStart="59dp"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/textbeugels" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/groen"
+                android:id="@+id/stoplichtvloer"
+                android:layout_alignTop="@+id/stoplichtbeugels"
+                android:layout_toEndOf="@+id/textbeugels"
+                android:layout_marginStart="38dp" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/switchright"
+                android:id="@+id/buttonpoortjes"
+                android:layout_alignParentBottom="true"
+                android:layout_alignEnd="@+id/textpoortjes"
+                android:layout_marginEnd="54dp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/poortjes"
+                android:id="@+id/textpoortjes"
+                android:layout_alignTop="@+id/textvloer"
+                android:layout_toEndOf="@+id/textvloer" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/groen"
+                android:id="@+id/stoplichtpoortjes"
+                android:layout_marginEnd="40dp"
+                android:layout_alignTop="@+id/stoplichtvloer"
+                android:layout_alignEnd="@+id/textpoortjes" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/starten"
+                android:id="@+id/textstarten"
+                android:layout_below="@+id/stoplichtpoortjes"
+                android:layout_toEndOf="@+id/textpoortjes" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/greenoff"
+                android:layout_marginStart="55dp"
+                android:id="@+id/buttonstarten"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/textpoortjes" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/meer"
+                android:id="@+id/textmeer"
+                android:layout_alignTop="@+id/textstarten"
+                android:layout_toEndOf="@+id/textstarten" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/redoff"
+                android:layout_marginStart="56dp"
+                android:id="@+id/buttonmeer"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/textstarten" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/groen"
+                android:id="@+id/stoplichtstarten"
+                android:layout_above="@+id/textstarten"
+                android:layout_toEndOf="@+id/textpoortjes"
+                android:layout_marginStart="40dp" />
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+</LinearLayout>

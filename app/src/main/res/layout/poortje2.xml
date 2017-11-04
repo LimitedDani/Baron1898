@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/main_layout">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/poortjeingang"
+                android:id="@+id/poortje2"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:layout_marginBottom="135dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="170dp"
+                app:srcCompat="@drawable/poortjeuit"
+                android:id="@+id/uitgang2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="72dp"
+                android:cropToPadding="false"
+                android:adjustViewBounds="false"
+                android:layout_marginBottom="53dp"
+                android:layout_alignBottom="@+id/poortje2"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </GridLayout>
+
+</LinearLayout>

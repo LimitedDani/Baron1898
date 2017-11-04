@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:id="@+id/layoutbelow"
+            android:layout_width="1000dp"
+            android:layout_height="760dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:id="@+id/rol"
+                android:layout_width="500dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/background"
+                android:gravity="">
+
+                <ImageView
+                    android:id="@+id/karshow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/showkar1" />
+
+                <include layout="@layout/platen" />
+
+                <ImageView
+                    android:id="@+id/rechts"
+                    android:layout_width="105dp"
+                    android:layout_height="380dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    app:srcCompat="@drawable/right" />
+
+                <ImageView
+                    android:id="@+id/Left"
+                    android:layout_width="100dp"
+                    android:layout_height="380dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    app:srcCompat="@drawable/left" />
+
+                <ImageView
+                    android:id="@+id/track"
+                    android:layout_width="100dp"
+                    android:layout_height="380dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    app:srcCompat="@drawable/track" />
+
+                <ImageView
+                    android:id="@+id/track2"
+                    android:layout_width="100dp"
+                    android:layout_height="380dp"
+                    android:layout_above="@+id/track"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/track" />
+
+                <ImageView
+                    android:id="@+id/wagon"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/track"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    app:srcCompat="@drawable/trein_1" />
+
+                <ImageView
+                    android:id="@+id/wagon2"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/track"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    app:srcCompat="@drawable/trein_1" />
+
+                <ImageView
+                    android:id="@+id/pops3"
+                    android:layout_width="225dp"
+                    android:layout_height="60dp"
+                    android:layout_alignBottom="@+id/wagon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="33dp"
+                    app:srcCompat="@drawable/bezoekers" />
+
+                <ImageView
+                    android:id="@+id/pops1"
+                    android:layout_width="225dp"
+                    android:layout_height="60dp"
+                    android:layout_alignStart="@+id/pops2"
+                    android:layout_alignTop="@+id/track"
+                    android:layout_marginTop="13dp"
+                    app:srcCompat="@drawable/bezoekers" />
+
+                <ImageView
+                    android:id="@+id/pops2"
+                    android:layout_width="225dp"
+                    android:layout_height="60dp"
+                    android:layout_alignStart="@+id/pops3"
+                    android:layout_below="@+id/pops1"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/bezoekers" />
+
+                <ImageView
+                    android:id="@+id/lampen"
+                    android:layout_width="500dp"
+                    android:layout_height="380dp"
+                    app:srcCompat="@drawable/lampen" />
+
+                <include layout="@layout/poortje1" />
+
+                <include layout="@layout/poortje2" />
+
+                <include layout="@layout/poortje3" />
+
+                <include layout="@layout/linkspoort" />
+
+                <include layout="@layout/rechtspoort" />
+
+                <ImageView
+                    android:id="@+id/black"
+                    android:layout_width="500dp"
+                    android:layout_height="380dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    app:srcCompat="@drawable/kar1showblack" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/show2bezoekers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                app:srcCompat="@drawable/show2" />
+
+            <ImageView
+                android:id="@+id/show1bezoekers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                app:srcCompat="@drawable/show1" />
+
+            <include layout="@layout/show1" />
+
+            <include layout="@layout/show2" />
+
+            <ImageView
+                android:id="@+id/geluidshowwagon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_above="@+id/show2bezoekers"
+                android:layout_alignParentStart="true"
+                app:srcCompat="@drawable/ic_volume_up_white_24dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:layout_width="300px"
+                android:layout_height="100px"
+                android:id="@+id/opencontrol"
+                android:src="@drawable/open"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/controlpanel"
+                android:layout_height="300dp">
+                <include layout="@layout/controlpanelbesturing"/>
+                <include layout="@layout/controlpanelshow" />
+
+                <TextView
+                    android:text="Sluiten"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sluiten"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold"
+                    android:onClick="onClick"
+                    android:clickable="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="18dp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        <include layout="@layout/ad" />
+    </RelativeLayout>
+
+</LinearLayout>

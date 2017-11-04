@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/besturingshow"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/main_layout">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/textterug"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="36dp"
+            app:srcCompat="@drawable/terug" />
+
+        <ImageView
+            android:id="@+id/buttonterug"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="60dp"
+            app:srcCompat="@drawable/redoff" />
+
+        <ImageView
+            android:id="@+id/buttonvulshow1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="61dp"
+            android:layout_marginStart="61dp"
+            android:layout_toEndOf="@+id/textterug"
+            android:layout_toRightOf="@+id/textterug"
+            app:srcCompat="@drawable/redoff" />
+
+        <ImageView
+            android:id="@+id/textvullenshow1"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@+id/textterug"
+            android:layout_toEndOf="@+id/textterug"
+            android:layout_toRightOf="@+id/textterug"
+            app:srcCompat="@drawable/vullenshow1" />
+
+        <ImageView
+            android:id="@+id/textoverplaatsen12"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_above="@+id/buttonoverplaatsen12"
+            android:layout_toEndOf="@+id/textvullenshow1"
+            android:layout_toRightOf="@+id/textvullenshow1"
+            app:srcCompat="@drawable/overplaatsenshow1show2" />
+
+        <ImageView
+            android:id="@+id/textstartshow1"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@+id/textvullenshow1"
+            android:layout_toEndOf="@+id/textoverplaatsen12"
+            android:layout_toRightOf="@+id/textoverplaatsen12"
+            app:srcCompat="@drawable/startenshow1" />
+
+        <ImageView
+            android:id="@+id/buttonstartshow1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignLeft="@+id/textstartshow1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textstartshow1"
+            android:layout_marginLeft="58dp"
+            android:layout_marginStart="58dp"
+            app:srcCompat="@drawable/greenoff" />
+
+        <ImageView
+            android:id="@+id/textstartshow2"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@+id/textstartshow1"
+            android:layout_toEndOf="@+id/textstartshow1"
+            android:layout_toRightOf="@+id/textstartshow1"
+            app:srcCompat="@drawable/startenshow2" />
+
+        <ImageView
+            android:id="@+id/buttonoverplaatsen12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="57dp"
+            android:layout_marginStart="57dp"
+            android:layout_toEndOf="@+id/textvullenshow1"
+            android:layout_toRightOf="@+id/textvullenshow1"
+            app:srcCompat="@drawable/redoff" />
+
+        <ImageView
+            android:id="@+id/buttonstartshow2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="57dp"
+            android:layout_marginStart="57dp"
+            android:layout_toEndOf="@+id/textstartshow1"
+            android:layout_toRightOf="@+id/textstartshow1"
+            app:srcCompat="@drawable/greenoff" />
+
+        <ImageView
+            android:id="@+id/texthandleiding"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_alignTop="@+id/textstartshow1"
+            android:layout_toRightOf="@+id/textstartshow2"
+            app:srcCompat="@drawable/handleidingtext" />
+        <ImageView
+            android:id="@+id/buttonhandleiding"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="70dp"
+            app:srcCompat="@drawable/orangeon"
+            android:layout_marginStart="52dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/textstartshow2" />
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></HorizontalScrollView>
+
+</LinearLayout>

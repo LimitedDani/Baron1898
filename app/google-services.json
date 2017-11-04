@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "42497932856",
+    "firebase_url": "https://baron-1898-simulator.firebaseio.com",
+    "project_id": "baron-1898-simulator",
+    "storage_bucket": "baron-1898-simulator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42497932856:android:1ca03d96ec7d02b3",
+        "android_client_info": {
+          "package_name": "nl.limiteddani.baron1898"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42497932856-f1210mk26o52kvp5iru3inq73q6eis46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nl.limiteddani.baron1898",
+            "certificate_hash": "96F01CD9062404762166FE9CC5E9818465C9EEC6"
+          }
+        },
+        {
+          "client_id": "42497932856-rnb625uuspdr9qiamvtgpvlgb4qed73p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsJrM2JbUxdlQJ1LLUvfOFvx_FYtPpAao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42497932856-rnb625uuspdr9qiamvtgpvlgb4qed73p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
